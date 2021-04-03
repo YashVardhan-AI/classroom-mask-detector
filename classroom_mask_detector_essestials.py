@@ -8,7 +8,7 @@ import smtplib
 from email.message import EmailMessage
 
 # Constants
-IMAGE_SIZE = 32  # Image size 32 x 32 px
+IMAGE_SIZE = 96  # Image size 32 x 32 px
 THRESHOLD = 0.90  # only if the model is sure more than 90% then only give the prediction
 WITHOUT_MASK = 1
 RUN_FOR = 10 # Run for 10 seconds
